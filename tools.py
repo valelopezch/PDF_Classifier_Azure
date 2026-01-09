@@ -5,7 +5,7 @@ from langchain_core.prompts import PromptTemplate
 import os
 from openai import AzureOpenAI
 import httpx
-from apikey import subscription_key, api_version, endpoint
+from vars import subscription_key, api_version, endpoint
 
 model_name = "gpt-4o-mini"
 deployment = "doc-classifier-gpt4o-mini"
