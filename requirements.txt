@@ -1,0 +1,7 @@
+streamlit
+openai
+pydantic
+langchain
+langchain-core
+pypdf
+httpx
